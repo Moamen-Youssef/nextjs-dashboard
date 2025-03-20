@@ -1,3 +1,5 @@
+import { Suspense } from "react";
+
 export default function Page() {
-  return <p>Dashboard Page</p>;
+  return <Suspense fallback={<p>Loading...</p>}>dashborad</Suspense>;
 }
